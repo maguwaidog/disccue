@@ -2,14 +2,20 @@
 
 DiscCue（ディスクキュー）— **External Subtitles for Physical Media**
 
-This repository contains only the initial official product website. The application repository `maguwaidog/movie-glass-subtitles` is separate and is not a dependency or deployment target.
+This repository contains the official product website (v0.2 positioning update). The application repository `maguwaidog/movie-glass-subtitles` is separate and is not a dependency or deployment target.
 
-DiscCue is a Windows desktop application in development for displaying users' own external subtitle files on a separate display or projector while they watch lawfully obtained physical media on their existing playback equipment. It does not provide, host, stream, or distribute movies or video content, and does not supply subtitles.
+**Keep your eyes on the movie.**
+
+DiscCue is an **External Subtitle Projection System for Windows Home Theater**, currently in development. The brand descriptor remains **External Subtitles for Physical Media**. User-supplied SRT subtitles are output through a separate subtitle display or projector positioned in the same viewing field as the movie. Existing movie playback equipment remains untouched; DiscCue does not modify the video signal or digitally composite subtitles into it.
+
+The subtitle workflow is local/offline, with subtitle styling, position/geometry adjustment, precise timing/offset controls, Seek/Jump, and Current Line Sync. Current Line Sync uses the current subtitle line as a reference for manual alignment with the dialogue. These capabilities are implemented or confirmed for v1 STANDARD; the website does not imply that the product is released or that synchronization is automatic.
+
+Users provide their own subtitle files and must use legally obtained media and subtitle files they are authorized to use. DiscCue does not provide, host, stream, or distribute movies or copyrighted video content, and does not supply subtitles.
 
 ## Structure
 
 ```text
-index.html             Product, features, development status, contact placeholder
+index.html             Hero, product, features, how it works, status, contact
 privacy.html           Current website privacy information; product policy pending
 terms.html             Pre-launch terms, license, and refund status
 404.html               Self-contained missing-page page
@@ -36,6 +42,8 @@ To check the GitHub Pages project subdirectory locally, run the server from the 
 
 Check both narrow mobile and wide desktop viewports, anchor links, policy pages, the home links, and asset loading. No deployment credentials belong in this repository.
 
+For a positioning or layout update, verify widths **320, 390, 768, and 1440 pixels** locally and on the live Pages URL. Check the hero and viewing-field illustration, the How it works anchor, all navigation, Privacy/Terms/home links, CSS/favicon paths, and the custom 404 page. Confirm that no horizontal overflow occurs and that the copy remains readable. The illustration shows separate physical outputs in one viewing field, not subtitle compositing into the video signal.
+
 ## GitHub Pages publication
 
 1. Create the independent public repository `maguwaidog/disccue` and push these files to `main`.
@@ -45,6 +53,8 @@ Check both narrow mobile and wide desktop viewports, anchor links, policy pages,
 5. Confirm `privacy.html`, `terms.html`, stylesheet, favicon, anchors, and a nonexistent nested path. Confirm HTTPS and the mobile layout.
 
 Publication source: `main`, repository root. `.nojekyll` keeps the site independent of Jekyll. A custom workflow is not required.
+
+For subsequent updates, inspect local changes, fetch `origin/main`, and fast-forward the clean `main` branch before editing. Review the diff and run local checks before committing. Push the reviewed update to `main`, wait for Pages to reflect that commit, and repeat the live checks above. Update only this website repository.
 
 GitHub's source configuration guide: https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 
@@ -59,6 +69,8 @@ Use **https://maguwaidog.github.io/disccue/** in the Lemon Squeezy Seller onboar
 - Add genuine application screenshots, verified downloads, final pricing, and purchase information when ready.
 
 Do not add fixed pricing, checkout links, unsupported capability claims, fabricated contact details, or claims of a released product while development is ongoing. Every purchase-related page must reflect the actual released product and sales arrangements.
+
+Keep STANDARD's one-time purchase and FREE Trial wording at the planned stage until the commercial terms are finalized. Internal pricing hypotheses do not belong in this public repository. Focus public feature descriptions on the confirmed v1 scope; do not present future synchronization assistance, glasses, subtitle-provider integrations, translation, or cloud search as current capabilities. Avoid competitor comparisons and unsupported uniqueness claims.
 
 ## Future expansion
 

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="DiscCue（ディスクキュー）は、ユーザー自身の外部字幕を別ディスプレイやプロジェクターに表示する、開発中のWindowsアプリです。External Subtitles for Physical Media.">
+  <meta name="description" content="Keep your eyes on the movie. DiscCueは、ホームシアターの映画と同じ視野へ、ユーザー自身のSRT字幕を別ディスプレイ／プロジェクターから表示するWindowsアプリです。映像信号は変更しません。現在開発中。">
   <meta name="theme-color" content="#101c21">
   <title>DiscCue — External Subtitles for Physical Media</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -18,44 +18,62 @@
   <main id="main">
     <section class="hero"><div class="wrap hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> WINDOWS DESKTOP · IN DEVELOPMENT</p>
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> WINDOWS HOME THEATER · IN DEVELOPMENT</p>
         <p class="descriptor" lang="en">External Subtitles for Physical Media</p>
-        <h1>いつもの再生環境に、<br>あなたの字幕を。</h1>
-        <p class="lead">DiscCue<span class="reading">（ディスクキュー）</span>は、手元の外部字幕を別のディスプレイやプロジェクターに表示する、Windows向けデスクトップアプリです。</p>
-        <p class="hero-detail">既存の再生機器で映画などを視聴しながら、ユーザー自身が用意したSRT等の字幕ファイルを読み込み、字幕のタイミングを合わせるための補助ソフトを開発しています。</p>
-        <a class="button" href="#product">DiscCueについて <span aria-hidden="true">↗</span></a>
+        <h1 lang="en">Keep your eyes<br>on the movie.</h1>
+        <p class="hero-position" lang="en">External Subtitle Projection System<br>for Windows Home Theater</p>
+        <p class="lead">映画から視線を外さず、字幕を読む。DiscCue<span class="reading">（ディスクキュー）</span>は、字幕専用の別ディスプレイ／プロジェクターから、映画と同じ視野へ字幕を表示するWindowsアプリです。</p>
+        <p class="hero-detail" lang="en">Physical-media subtitles in your home theater viewing field, through a separate subtitle display or projector — without modifying the video signal.</p>
+        <a class="button" href="#how-it-works">仕組みを見る / How it works <span aria-hidden="true">↗</span></a>
         <p class="availability">現在開発中です。販売・一般向けダウンロードはまだ開始していません。</p>
       </div>
       <figure class="concept">
-        <div class="concept-top"><span>YOUR VIEWING SETUP</span><span class="small-dot" aria-hidden="true"></span></div>
-        <div class="screen-art" aria-hidden="true"><div class="moon"></div><div class="ridge ridge-back"></div><div class="ridge ridge-front"></div><span class="screen-label">映像は、お手持ちの再生機器で</span></div>
-        <div class="subtitle-panel"><span class="panel-label">EXTERNAL SUBTITLES</span><p>星空の向こうで、物語がつづく。</p><div class="timeline" aria-hidden="true"><span></span><i></i></div></div>
-        <div class="concept-bottom"><span>YOUR SUBTITLE FILE</span><span aria-hidden="true">→</span><strong>DiscCue</strong><span aria-hidden="true">→</span><span>SECOND DISPLAY</span></div>
-        <figcaption>利用イメージ / Concept illustration<br>製品画面のスクリーンショットではありません。</figcaption>
+        <div class="concept-top"><span>ONE VIEWING FIELD</span><span class="small-dot" aria-hidden="true"></span></div>
+        <div class="viewing-field">
+          <div class="screen-art" aria-hidden="true"><div class="moon"></div><div class="ridge ridge-back"></div><div class="ridge ridge-front"></div><span class="screen-label">映像：既存のプロジェクター / TV</span></div>
+          <div class="subtitle-panel"><span class="panel-label">SEPARATE SUBTITLE OUTPUT</span><p>星空の向こうで、物語がつづく。</p></div>
+        </div>
+        <div class="signal-paths" lang="en">
+          <div><strong>Movie projector / TV</strong><span aria-hidden="true">→</span><span>Movie</span></div>
+          <div><strong>Subtitle projector / display</strong><span aria-hidden="true">→</span><span>Subtitles</span></div>
+        </div>
+        <figcaption>同じ視野へ、別系統から表示。映像信号は変更しません。<br><span lang="en">Separate outputs in one viewing field.</span><br>利用イメージ / Concept illustration · 製品画面ではありません。</figcaption>
       </figure>
     </div></section>
 
     <section class="section product" id="product"><div class="wrap product-grid">
-      <div><p class="eyebrow">01 / THE IDEA</p><h2>映像はそのまま。<br>字幕に、もうひとつの場所を。</h2></div>
-      <div class="prose"><p>ディスクなどの物理メディアを既存のプレーヤーで再生しながら、別の表示先で外部字幕を使いたい。そのためのシンプルな道具がDiscCueです。</p><p lang="en">DiscCue is a Windows desktop application in development. It is designed to display your own external subtitle files, such as SRT, on a separate display or projector and help you synchronize them while watching lawfully obtained physical media on your existing playback equipment.</p><div class="content-notice"><strong>映像・字幕コンテンツを提供するサービスではありません。</strong><p>DiscCueは映画・映像コンテンツを提供、ホスト、ストリーミング、配布しません。字幕ファイルはユーザー自身で用意してください。合法的に入手した映像と、利用する権利のある字幕ファイルをご使用ください。</p><p lang="en">DiscCue does not provide, host, stream, or distribute movies or video content. It does not supply subtitle files. You must provide your own subtitle files and have the necessary rights to use both the media and subtitles.</p></div></div>
+      <div><p class="eyebrow">01 / THE IDEA</p><h2>映像はそのまま。<br>字幕も、映画と同じ視野に。</h2></div>
+      <div class="prose"><p>DiscCueは、Windows Home Theater向けのExternal Subtitle Projection Systemとして開発しています。ディスクなどの物理メディアをいつもの再生機器で視聴しながら、ユーザー自身のSRT字幕を字幕専用の別ディスプレイ／プロジェクターへ出力します。</p><p>その表示先を映画と同じ視野に配置することで、映画から視線を外さず字幕を読めます。字幕は別系統で表示し、既存の再生機器や映像信号を変更しません。</p><p lang="en">DiscCue is an External Subtitle Projection System for Windows Home Theater, currently in development. It displays your own SRT subtitles through a separate subtitle display or projector, positioned in the same viewing field as the movie. Your existing movie playback equipment remains untouched, and the video signal is not modified.</p><div class="content-notice"><strong>映像・字幕コンテンツを提供するサービスではありません。</strong><p>DiscCueは映画・著作権で保護された映像コンテンツを提供、ホスト、ストリーミング、配布しません。字幕ファイルはユーザー自身で用意してください。合法的に入手した映像と、利用する権利のある字幕ファイルをご使用ください。</p><p lang="en">Users provide their own subtitle files. DiscCue does not provide, host, stream, or distribute movies or copyrighted video content. It does not supply subtitle files. Use legally obtained media and subtitle files you are authorized to use.</p></div></div>
     </div></section>
 
     <section class="section features" id="features"><div class="wrap">
-      <div class="section-heading"><div><p class="eyebrow">02 / FEATURES</p><h2>字幕を、あなたの視聴環境へ。</h2></div><p>開発中の機能方針 / Planned capabilities</p></div>
+      <div class="section-heading"><div><p class="eyebrow">02 / FEATURES</p><h2>表示も、タイミングも、手元で。</h2></div><p>v1 STANDARDの機能範囲 / v1 STANDARD feature scope</p></div>
       <div class="feature-grid">
-        <article class="feature-card"><span class="feature-number">01</span><h3>手元の字幕を使う</h3><p>SRT等、ユーザー自身が用意した外部字幕ファイルを読み込んで表示する設計です。</p><p class="english" lang="en">Use your own external subtitle files, with SRT support planned.</p></article>
-        <article class="feature-card"><span class="feature-number">02</span><h3>表示先を分ける</h3><p>Windows PCに接続した別ディスプレイやプロジェクターを字幕の表示先にする設計です。</p><p class="english" lang="en">Show subtitles on a separate display or projector connected to your Windows PC.</p></article>
-        <article class="feature-card"><span class="feature-number">03</span><h3>字幕のタイミングを合わせる</h3><p>既存の再生機器での視聴に合わせ、字幕のタイミングを調整する操作を開発しています。</p><p class="english" lang="en">Adjust subtitle timing to accompany playback on your existing equipment.</p></article>
+        <article class="feature-card"><span class="feature-number">01</span><h3>自分のSRTを、ローカルで</h3><p>ユーザー自身のSRT字幕ファイルを読み込み、字幕の読み込み・表示・同期をローカル／オフラインで操作します。</p><p class="english" lang="en">Load your own SRT files. The subtitle loading, display, and synchronization workflow runs locally and offline.</p></article>
+        <article class="feature-card"><span class="feature-number">02</span><h3>字幕専用の表示先</h3><p>Windows PCにつないだ別ディスプレイ／プロジェクターから、映画と同じ視野へ字幕を表示します。</p><p class="english" lang="en">Use a separate subtitle display or projector connected to your Windows PC and placed in your movie viewing field.</p></article>
+        <article class="feature-card"><span class="feature-number">03</span><h3>スタイル・位置・形状を調整</h3><p>字幕のスタイルと表示位置、ジオメトリを調整し、ホームシアターの表示環境に合わせます。</p><p class="english" lang="en">Adjust subtitle styling, position, and geometry to suit your home theater setup.</p></article>
+        <article class="feature-card"><span class="feature-number">04</span><h3>細かなタイミング操作</h3><p>タイミング／オフセット調整とSeek／Jump操作で、映画の再生位置に字幕を合わせます。</p><p class="english" lang="en">Use precise timing and offset controls, plus Seek and Jump, to align subtitles with movie playback.</p></article>
+        <article class="feature-card"><span class="feature-number">05</span><h3 lang="en">Current Line Sync</h3><p>現在の字幕行を基準に、再生中のセリフにタイミングを合わせる手動の同期操作です。</p><p class="english" lang="en">Use the current subtitle line as a reference to manually align timing with the dialogue you are watching.</p></article>
+        <article class="feature-card"><span class="feature-number">06</span><h3>映像系統はそのまま</h3><p>映画はいつもの再生機器から。DiscCueが扱うのは外部字幕で、映像信号を加工しません。</p><p class="english" lang="en">Keep your existing movie playback equipment. DiscCue handles external subtitles without modifying the video signal.</p></article>
       </div>
-      <p class="section-note">仕様、対応形式、動作要件は開発に伴い変更される場合があります。詳細はリリース前に公開します。<br><span lang="en">Specifications, supported formats, and system requirements will be confirmed before release.</span></p>
+      <p class="section-note">開発中の製品について、実装済みまたはv1 STANDARD向けに確定している機能範囲を紹介しています。動作要件とリリース情報は公開前にご案内します。<br><span lang="en">These capabilities are implemented or confirmed for v1 STANDARD. The product is still in development; system requirements and release details will be published before launch.</span></p>
     </div></section>
 
+    <section class="section how-section" id="how-it-works"><div class="wrap product-grid">
+      <div><p class="eyebrow">03 / HOW IT WORKS</p><h2>ふたつの表示系統。<br>ひとつの視野。</h2><p class="status-summary">映画用の表示先と字幕専用の表示先を、同じ視野に配置します。</p></div>
+      <ol class="setup-steps">
+        <li><h3 lang="en">Movie projector / TV</h3><p>合法的に入手した物理メディアを、既存のプレーヤーと映画用プロジェクター／TVで再生します。</p><p lang="en">Play legally obtained physical media on your existing player and movie projector or TV.</p></li>
+        <li><h3 lang="en">Windows PC + DiscCue + your SRT</h3><p>利用する権利のあるSRTを読み込み、字幕のスタイル・位置・ジオメトリを調整します。</p><p lang="en">Load an SRT file you are authorized to use, then adjust subtitle styling, position, and geometry.</p></li>
+        <li><h3 lang="en">Subtitle projector / display</h3><p>PCにつないだ字幕専用の別プロジェクター／ディスプレイを映画と同じ視野に配置します。Current Line Syncやタイミング操作で、字幕を映画のセリフに手動で合わせます。</p><p lang="en">Place the separate subtitle projector or display in the movie viewing field. Manually align subtitles with the dialogue using Current Line Sync and timing controls.</p></li>
+      </ol>
+    </div><div class="wrap"><p class="section-note">映像へのデジタル合成は行いません。字幕は専用の別表示系統から出力されます。<br><span lang="en">Subtitles are output through separate equipment; DiscCue does not digitally composite subtitles into the movie's video signal.</span></p></div></section>
+
     <section class="section" id="status"><div class="wrap status-grid">
-      <div><p class="eyebrow">03 / DEVELOPMENT STATUS</p><h2>小さく始めて、<br>使いやすい道具へ。</h2><p class="status-summary">現在は開発段階です。リリース日と価格は未定です。</p></div>
+      <div><p class="eyebrow">04 / DEVELOPMENT STATUS</p><h2>小さく始めて、<br>使いやすい道具へ。</h2><p class="status-summary">現在は開発段階です。リリース日と価格は未定です。</p></div>
       <div class="release-card"><div class="release-title"><span class="pill">開発中 / In development</span><span>FOR WINDOWS</span></div><h3>STANDARD Edition</h3><p>買い切り型の販売を予定しています。価格・ライセンス条件は販売開始前に公開します。</p><p class="english" lang="en">A one-time purchase STANDARD Edition is planned. Pricing and license terms have not been finalized. No sales are currently available.</p><div class="trial-row"><strong>FREE Trial</strong><span>試用版も提供予定です。詳細は後日公開します。<br><span lang="en">A free trial is planned; details will follow.</span></span></div><p class="release-note">今後このサイトに、Screenshots、Download、Pricing、Purchase、Supportを順次追加する予定です。</p></div>
     </div></section>
 
-    <section class="section contact-section" id="contact"><div class="wrap contact-grid"><div><p class="eyebrow">04 / CONTACT</p><h2>お問い合わせ</h2></div><div class="prose"><p>公開用のお問い合わせ窓口は準備中です。販売開始前に連絡先とサポート方法をこのページでご案内します。</p><p lang="en">A public contact channel is being prepared. Contact details and support information will be published here before sales begin.</p><span class="contact-label">連絡先準備中 / Contact details coming soon</span></div></div></section>
+    <section class="section contact-section" id="contact"><div class="wrap contact-grid"><div><p class="eyebrow">05 / CONTACT</p><h2>お問い合わせ</h2></div><div class="prose"><p>公開用のお問い合わせ窓口は準備中です。販売開始前に連絡先とサポート方法をこのページでご案内します。</p><p lang="en">A public contact channel is being prepared. Contact details and support information will be published here before sales begin.</p><span class="contact-label">連絡先準備中 / Contact details coming soon</span></div></div></section>
 
     <section class="policy-strip"><div class="wrap policy-grid"><div><h2>販売開始に向けて</h2><p>製品のPrivacy Policy、利用規約、返金条件は販売開始前に整備・公開します。<br><span lang="en">Product privacy, terms, and refund conditions will be published before launch.</span></p></div><div class="policy-links"><a href="privacy.html">Privacy Policy <span aria-hidden="true">↗</span></a><a href="terms.html">Terms &amp; Refund <span aria-hidden="true">↗</span></a></div></div></section>
   </main>
