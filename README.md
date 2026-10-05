@@ -40,3 +40,12 @@ Run `python -m http.server 8000 --bind 127.0.0.1` from this directory. For the G
 Review at 320, 390, 768, and 1440 px, including keyboard focus, CTA links, FAQ, local assets, and policy pages. The canonical URL is https://maguwaidog.github.io/disccue/. A project-level robots.txt does not control the host-root robots policy.
 
 Purchase disclosures follow the current official consumer and provider guidance. The owner must maintain the actual request-and-response operation described in `docs/commerce-operations.md`; wording alone does not complete disclosure. Product screenshots are recommended before launch and can be added later without replacing the labeled concept illustration. Changes on this branch are for review only; merging or deploying requires separate authorization.
+
+
+## English website
+
+The English landing page is `en/index.html`, with full English Terms, Privacy and purchase information. Japanese and English landing/policy pages use self-canonical URLs and reciprocal `ja`/`en`/`x-default` alternates. The English purchase information and Japan statutory disclosure have different purposes and are not declared interchangeable hreflang translations.
+
+Language choice is explicit in headers and footers, with no automatic locale redirect or client-side storage. Both language versions use the same official v1.0.0 MSI and persistent production checkout link. International visitors review their final amount, currency and taxes in checkout; the Japan price is not advertised as a worldwide quote. English website content does not claim the application has an English UI mode.
+
+Product screenshots must come from the owner's original captures, receive a privacy/content audit and preserve the real UI. The concept illustration remains separately labeled. Do not use fabricated product imagery or upload private audit materials.
