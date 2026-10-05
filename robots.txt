@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://maguwaidog.github.io/disccue/sitemap.xml

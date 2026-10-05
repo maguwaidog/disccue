@@ -3,9 +3,19 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Keep your eyes on the movie. DiscCueは、ホームシアターの映画と同じ視野へ、ユーザー自身のSRT字幕を別ディスプレイ／プロジェクターから表示するWindowsアプリです。映像信号は変更しません。現在開発中。">
+  <meta name="description" content="海外版Blu-ray・UHDに見たい字幕がないときに。DiscCueは自分のSRTを別画面・プロジェクターへ表示するWindowsアプリ。投影再生の累積30分FREE Trial、Standard ¥2,480（税込・日本向け）の買い切り。映像信号は変更しません。">
   <meta name="theme-color" content="#101c21">
-  <title>DiscCue — External Subtitles for Physical Media</title>
+  <title>DiscCue — Blu-ray・UHDを自分のSRT字幕で楽しむ</title>
+  <link rel="canonical" href="https://maguwaidog.github.io/disccue/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="DiscCue">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:title" content="DiscCue — Keep your player. Keep your disc. Add your subtitles.">
+  <meta property="og:description" content="External Subtitles for Physical Media. 自分のSRTを映画と同じ視野へ。投影再生の累積30分FREE Trial / Standard ¥2,480（税込・日本向け）・買い切り。">
+  <meta property="og:url" content="https://maguwaidog.github.io/disccue/">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="DiscCue — External Subtitles for Physical Media">
+  <meta name="twitter:description" content="External SRT subtitles for Blu-ray / UHD, through a separate subtitle display or projector. Keep your eyes on the movie.">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
@@ -13,19 +23,23 @@
   <a class="skip-link" href="#main">本文へ移動</a>
   <header class="site-header"><div class="wrap header-inner">
     <a class="brand" href="./" aria-label="DiscCue ホーム"><img src="assets/favicon.svg" width="32" height="32" alt=""><span>DiscCue</span></a>
-    <nav aria-label="メインナビゲーション"><a href="#features">Features</a><a href="#status">Status</a><a href="#contact">Contact</a></nav>
+    <nav aria-label="メインナビゲーション"><a href="#how-it-works">使い方</a><a href="#pricing">Trial / Standard</a><a href="#faq">FAQ</a><a href="#support">Support</a></nav>
   </div></header>
   <main id="main">
     <section class="hero"><div class="wrap hero-grid">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> WINDOWS HOME THEATER · IN DEVELOPMENT</p>
+        <p class="eyebrow">WINDOWS HOME THEATER</p>
         <p class="descriptor" lang="en">External Subtitles for Physical Media</p>
-        <h1 lang="en">Keep your eyes<br>on the movie.</h1>
-        <p class="hero-position" lang="en">External Subtitle Projection System<br>for Windows Home Theater</p>
-        <p class="lead">映画から視線を外さず、字幕を読む。DiscCue<span class="reading">（ディスクキュー）</span>は、字幕専用の別ディスプレイ／プロジェクターから、映画と同じ視野へ字幕を表示するWindowsアプリです。</p>
-        <p class="hero-detail" lang="en">Physical-media subtitles in your home theater viewing field, through a separate subtitle display or projector — without modifying the video signal.</p>
-        <a class="button" href="#how-it-works">仕組みを見る / How it works <span aria-hidden="true">↗</span></a>
-        <p class="availability">現在開発中です。販売・一般向けダウンロードはまだ開始していません。</p>
+        <h1>海外版Blu-ray・UHDに、<br>見たい字幕がないときに。</h1>
+        <p class="hero-promise" lang="en">Keep your player.<br>Keep your disc.<br>Add your subtitles.</p>
+        <p class="lead">DiscCue<span class="reading">（ディスクキュー）</span>は、自分のSRTを字幕専用の別画面／プロジェクターへ表示するWindowsアプリ。映画と同じ視野で字幕を読めます。</p>
+        <p class="hero-detail" lang="en">Your SRT. A separate subtitle display or projector. The movie signal stays untouched.</p>
+        <p class="offer-summary">累積30分 FREE Trial <span aria-hidden="true">·</span> Standard ¥2,480（税込・日本向け） / 買い切り</p>
+        <div class="cta-group" aria-label="試用と購入">
+          <div class="cta-item"><a class="button" href="https://github.com/maguwaidog/DiscCue-Releases/releases/download/v1.0.0/DiscCue-1.0.0.msi" aria-describedby="download-note">Download DiscCue</a><p id="download-note" class="cta-note">v1.0.0 · Windows 11 x64<br>同じアプリでFREE Trialを累積30分試せます。</p></div>
+          <div class="cta-item"><a class="button button-outline" href="https://buy.polar.sh/polar_cl_TDCBYYSAvUdgNv5AkaE9ONiixadWXCWjz7tw21eu6fU" aria-describedby="purchase-note">Buy Standard — ¥2,480（税込）</a><p id="purchase-note" class="cta-note">日本向け税込価格 · Polarで買い切り購入 · 最大2台<br><span lang="en">One-time · Japan price includes applicable taxes · No subscription</span><a href="tokushoho.html">販売条件・開示請求・返金の案内</a></p></div>
+        </div>
+        <a class="text-link" href="https://www.youtube.com/watch?v=vQmIugiDq54" lang="en">Watch Demo on YouTube <span aria-hidden="true">↗</span></a>
       </div>
       <figure class="concept">
         <div class="concept-top"><span>ONE VIEWING FIELD</span><span class="small-dot" aria-hidden="true"></span></div>
@@ -33,50 +47,88 @@
           <div class="screen-art" aria-hidden="true"><div class="moon"></div><div class="ridge ridge-back"></div><div class="ridge ridge-front"></div><span class="screen-label">映像：既存のプロジェクター / TV</span></div>
           <div class="subtitle-panel"><span class="panel-label">SEPARATE SUBTITLE OUTPUT</span><p>星空の向こうで、物語がつづく。</p></div>
         </div>
-        <div class="signal-paths" lang="en">
-          <div><strong>Movie projector / TV</strong><span aria-hidden="true">→</span><span>Movie</span></div>
-          <div><strong>Subtitle projector / display</strong><span aria-hidden="true">→</span><span>Subtitles</span></div>
-        </div>
-        <figcaption>同じ視野へ、別系統から表示。映像信号は変更しません。<br><span lang="en">Separate outputs in one viewing field.</span><br>利用イメージ / Concept illustration · 製品画面ではありません。</figcaption>
+        <div class="signal-paths" lang="en"><div><strong>Movie projector / TV</strong><span aria-hidden="true">→</span><span>Movie</span></div><div><strong>Subtitle projector / display</strong><span aria-hidden="true">→</span><span>Subtitles</span></div></div>
+        <figcaption>映画と字幕を、別系統から同じ視野へ。<br><span lang="en">Keep your eyes on the movie.</span><br>利用イメージ / Concept illustration · 製品画面ではありません。</figcaption>
       </figure>
     </div></section>
 
-    <section class="section product" id="product"><div class="wrap product-grid">
-      <div><p class="eyebrow">01 / THE IDEA</p><h2>映像はそのまま。<br>字幕も、映画と同じ視野に。</h2></div>
-      <div class="prose"><p>DiscCueは、Windows Home Theater向けのExternal Subtitle Projection Systemとして開発しています。ディスクなどの物理メディアをいつもの再生機器で視聴しながら、ユーザー自身のSRT字幕を字幕専用の別ディスプレイ／プロジェクターへ出力します。</p><p>その表示先を映画と同じ視野に配置することで、映画から視線を外さず字幕を読めます。字幕は別系統で表示し、既存の再生機器や映像信号を変更しません。</p><p lang="en">DiscCue is an External Subtitle Projection System for Windows Home Theater, currently in development. It displays your own SRT subtitles through a separate subtitle display or projector, positioned in the same viewing field as the movie. Your existing movie playback equipment remains untouched, and the video signal is not modified.</p><div class="content-notice"><strong>映像・字幕コンテンツを提供するサービスではありません。</strong><p>DiscCueは映画・著作権で保護された映像コンテンツを提供、ホスト、ストリーミング、配布しません。字幕ファイルはユーザー自身で用意してください。合法的に入手した映像と、利用する権利のある字幕ファイルをご使用ください。</p><p lang="en">Users provide their own subtitle files. DiscCue does not provide, host, stream, or distribute movies or copyrighted video content. It does not supply subtitle files. Use legally obtained media and subtitle files you are authorized to use.</p></div></div>
+    <section class="section product" id="problem"><div class="wrap product-grid">
+      <div><p class="eyebrow">01 / THE PROBLEM</p><h2>好きなディスクも、<br>いつもの再生環境も。</h2></div>
+      <div class="prose"><p>海外版Blu-rayや4K UHD Blu-rayを手に入れても、必要な言語の字幕が収録されていないことがあります。利用する権利のある外部SRTを用意できるなら、DiscCueで字幕の表示系統を追加できます。</p><p>映像はいつものBlu-ray／UHDプレーヤー、AVアンプ、TV／プロジェクターから。映画をPCで再生する必要も、字幕のためにプレーヤーを買い替える必要もありません。字幕専用の表示先を映画と同じ視野に配置し、手元のPCでタイミングを合わせます。</p><p lang="en">Missing your preferred subtitle language on an imported disc? Keep your existing home theater equipment and add a separate subtitle output using an SRT file you are authorized to use.</p><div class="content-notice"><strong>映画・字幕ファイルは付属しません。</strong><p>DiscCueは字幕表示・投影のためのソフトです。映像プレーヤーやリッピングツールではありません。映画・TV番組・Blu-ray／UHDコンテンツを提供、ホスト、ストリーミング、配布せず、SRT等の字幕データも提供しません。合法的に入手した映像と、利用する権利のある字幕をユーザー自身で用意してください。</p><p lang="en">Users provide their own subtitle files. DiscCue does not provide, host, stream, or distribute movies, copyrighted video content, or subtitle files. Use legally obtained media and subtitle files you are authorized to use.</p></div></div>
+    </div></section>
+
+    <section class="section how-section" id="how-it-works"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">02 / HOW IT WORKS</p><h2>ふたつの表示系統。ひとつの視野。</h2></div><p lang="en">External Subtitle Projection System for Windows Home Theater</p></div>
+      <div class="flow-grid">
+        <div class="flow-card"><h3>映像の経路 <span lang="en">Movie path</span></h3><ol class="signal-flow"><li>Blu-ray / UHD Player<span>いつものディスクプレーヤー</span></li><li>Main Display / Projector<span>映画用のTV／プロジェクター</span></li><li>Movie<span>映画の映像をそのまま表示</span></li></ol></div>
+        <div class="flow-card"><h3>字幕の経路 <span lang="en">Subtitle path</span></h3><ol class="signal-flow"><li>Windows PC + DiscCue<span>ユーザー自身のSRTを読み込む</span></li><li>Subtitle Display / Projector<span>PCにつないだ字幕専用の別表示先</span></li><li>SRT Subtitles<span>スタイル・位置・タイミングを調整して表示</span></li></ol></div>
+      </div>
+      <p class="viewing-note">映画と字幕の表示先を、同じ視野に配置します。</p>
+      <p class="section-note">映像へのデジタル合成は行いません。DiscCueは映像信号を加工せず、既存の再生機器を制御・変更しません。字幕の同期は手動で操作します。<br><span lang="en">Separate physical outputs in one viewing field. DiscCue does not alter or digitally composite into the video signal. Subtitle synchronization is manual.</span></p>
     </div></section>
 
     <section class="section features" id="features"><div class="wrap">
-      <div class="section-heading"><div><p class="eyebrow">02 / FEATURES</p><h2>表示も、タイミングも、手元で。</h2></div><p>v1 STANDARDの機能範囲 / v1 STANDARD feature scope</p></div>
+      <div class="section-heading"><div><p class="eyebrow">03 / FEATURES</p><h2>字幕の表示も、タイミングも、手元で。</h2></div></div>
       <div class="feature-grid">
-        <article class="feature-card"><span class="feature-number">01</span><h3>自分のSRTを、ローカルで</h3><p>ユーザー自身のSRT字幕ファイルを読み込み、字幕の読み込み・表示・同期をローカル／オフラインで操作します。</p><p class="english" lang="en">Load your own SRT files. The subtitle loading, display, and synchronization workflow runs locally and offline.</p></article>
-        <article class="feature-card"><span class="feature-number">02</span><h3>字幕専用の表示先</h3><p>Windows PCにつないだ別ディスプレイ／プロジェクターから、映画と同じ視野へ字幕を表示します。</p><p class="english" lang="en">Use a separate subtitle display or projector connected to your Windows PC and placed in your movie viewing field.</p></article>
-        <article class="feature-card"><span class="feature-number">03</span><h3>スタイル・位置・形状を調整</h3><p>字幕のスタイルと表示位置、ジオメトリを調整し、ホームシアターの表示環境に合わせます。</p><p class="english" lang="en">Adjust subtitle styling, position, and geometry to suit your home theater setup.</p></article>
-        <article class="feature-card"><span class="feature-number">04</span><h3>細かなタイミング操作</h3><p>タイミング／オフセット調整とSeek／Jump操作で、映画の再生位置に字幕を合わせます。</p><p class="english" lang="en">Use precise timing and offset controls, plus Seek and Jump, to align subtitles with movie playback.</p></article>
-        <article class="feature-card"><span class="feature-number">05</span><h3 lang="en">Current Line Sync</h3><p>現在の字幕行を基準に、再生中のセリフにタイミングを合わせる手動の同期操作です。</p><p class="english" lang="en">Use the current subtitle line as a reference to manually align timing with the dialogue you are watching.</p></article>
-        <article class="feature-card"><span class="feature-number">06</span><h3>映像系統はそのまま</h3><p>映画はいつもの再生機器から。DiscCueが扱うのは外部字幕で、映像信号を加工しません。</p><p class="english" lang="en">Keep your existing movie playback equipment. DiscCue handles external subtitles without modifying the video signal.</p></article>
+        <article class="feature-card"><span class="feature-number">01 / YOUR SRT</span><h3>自分のSRTを読み込む</h3><p>字幕ファイルはローカルで読み込みます。字幕を探すサービスへの登録や、ファイルのアップロードは不要です。</p><p class="english" lang="en">Load your own local SRT. No subtitle search account or file upload required.</p></article>
+        <article class="feature-card"><span class="feature-number">02 / SEPARATE OUTPUT</span><h3>字幕専用の表示先へ</h3><p>PCにつないだ別ディスプレイ／プロジェクターへ字幕を表示。スタイル・位置・ジオメトリを環境に合わせて調整できます。</p><p class="english" lang="en">Separate-screen subtitle display with styling, position, and geometry controls.</p></article>
+        <article class="feature-card"><span class="feature-number">03 / TIMING</span><h3>ずれたタイミングを調整</h3><p>オフセット、Seek／Jump、再生・一時停止の操作で、字幕を映画のセリフに手動で合わせます。</p><p class="english" lang="en">Manually align subtitle playback with offset, Seek / Jump, and playback controls.</p></article>
+        <article class="feature-card"><span class="feature-number">04 / STANDARD</span><h3 lang="en">Current Line Sync</h3><p>表示中の字幕行を基準に、字幕再生時計とのずれを一操作で補正します。元のSRTを書き換えず、全体のオフセットを調整するStandardの手動同期機能です。</p><p class="english" lang="en">Align the current displayed cue to the subtitle playback clock. Manual offset correction in Standard; no automatic audio or movie synchronization.</p></article>
+        <article class="feature-card"><span class="feature-number">05 / OFFLINE</span><h3>認証後はオフラインで</h3><p>Standardは初回のオンライン認証後、通常の字幕利用はオフラインで行えます。定期的なオンライン再認証は要求しません。</p><p class="english" lang="en">Offline Standard use after initial online activation, without periodic online revalidation.</p></article>
+        <article class="feature-card"><span class="feature-number">06 / WINDOWS</span><h3>シンプルなWindowsの操作</h3><p>SRTを読み込み、表示先を選び、字幕を合わせる。映画の再生はいつもの機器に任せ、DiscCueで字幕側だけを操作します。</p><p class="english" lang="en">Load SRT, choose an output, and adjust subtitles. Your player continues to handle the movie.</p></article>
       </div>
-      <p class="section-note">開発中の製品について、実装済みまたはv1 STANDARD向けに確定している機能範囲を紹介しています。動作要件とリリース情報は公開前にご案内します。<br><span lang="en">These capabilities are implemented or confirmed for v1 STANDARD. The product is still in development; system requirements and release details will be published before launch.</span></p>
     </div></section>
 
-    <section class="section how-section" id="how-it-works"><div class="wrap product-grid">
-      <div><p class="eyebrow">03 / HOW IT WORKS</p><h2>ふたつの表示系統。<br>ひとつの視野。</h2><p class="status-summary">映画用の表示先と字幕専用の表示先を、同じ視野に配置します。</p></div>
-      <ol class="setup-steps">
-        <li><h3 lang="en">Movie projector / TV</h3><p>合法的に入手した物理メディアを、既存のプレーヤーと映画用プロジェクター／TVで再生します。</p><p lang="en">Play legally obtained physical media on your existing player and movie projector or TV.</p></li>
-        <li><h3 lang="en">Windows PC + DiscCue + your SRT</h3><p>利用する権利のあるSRTを読み込み、字幕のスタイル・位置・ジオメトリを調整します。</p><p lang="en">Load an SRT file you are authorized to use, then adjust subtitle styling, position, and geometry.</p></li>
-        <li><h3 lang="en">Subtitle projector / display</h3><p>PCにつないだ字幕専用の別プロジェクター／ディスプレイを映画と同じ視野に配置します。Current Line Syncやタイミング操作で、字幕を映画のセリフに手動で合わせます。</p><p lang="en">Place the separate subtitle projector or display in the movie viewing field. Manually align subtitles with the dialogue using Current Line Sync and timing controls.</p></li>
-      </ol>
-    </div><div class="wrap"><p class="section-note">映像へのデジタル合成は行いません。字幕は専用の別表示系統から出力されます。<br><span lang="en">Subtitles are output through separate equipment; DiscCue does not digitally composite subtitles into the movie's video signal.</span></p></div></section>
-
-    <section class="section" id="status"><div class="wrap status-grid">
-      <div><p class="eyebrow">04 / DEVELOPMENT STATUS</p><h2>小さく始めて、<br>使いやすい道具へ。</h2><p class="status-summary">現在は開発段階です。リリース日と価格は未定です。</p></div>
-      <div class="release-card"><div class="release-title"><span class="pill">開発中 / In development</span><span>FOR WINDOWS</span></div><h3>STANDARD Edition</h3><p>買い切り型の販売を予定しています。価格・ライセンス条件は販売開始前に公開します。</p><p class="english" lang="en">A one-time purchase STANDARD Edition is planned. Pricing and license terms have not been finalized. No sales are currently available.</p><div class="trial-row"><strong>FREE Trial</strong><span>試用版も提供予定です。詳細は後日公開します。<br><span lang="en">A free trial is planned; details will follow.</span></span></div><p class="release-note">今後このサイトに、Screenshots、Download、Pricing、Purchase、Supportを順次追加する予定です。</p></div>
+    <section class="section" id="demo"><div class="wrap product-grid">
+      <div><p class="eyebrow">04 / WATCH DEMO</p><h2>操作と投影の様子を、動画で。</h2></div>
+      <div class="prose"><p>DiscCueの実際のUI、SRT読み込み、字幕操作、タイミング調整、字幕投影の様子をご覧ください。動画は利用例で、映画や字幕データが製品に付属することを示すものではありません。</p><p lang="en">See the actual DiscCue interface and subtitle projection workflow. Demonstration content is not included with the software.</p><a class="button" href="https://www.youtube.com/watch?v=vQmIugiDq54" lang="en">Watch Demo on YouTube <span aria-hidden="true">↗</span></a><p class="section-note">YouTubeへ移動します。このページでは動画を自動読込しません。</p></div>
     </div></section>
 
-    <section class="section contact-section" id="contact"><div class="wrap contact-grid"><div><p class="eyebrow">05 / CONTACT</p><h2>お問い合わせ</h2></div><div class="prose"><p>公開用のお問い合わせ窓口は準備中です。販売開始前に連絡先とサポート方法をこのページでご案内します。</p><p lang="en">A public contact channel is being prepared. Contact details and support information will be published here before sales begin.</p><span class="contact-label">連絡先準備中 / Contact details coming soon</span></div></div></section>
+    <section class="section pricing-section" id="pricing"><div class="wrap">
+      <div class="section-heading"><div><p class="eyebrow">05 / FREE TRIAL &amp; STANDARD</p><h2>自分の環境で、まず試す。</h2></div></div>
+      <div class="plan-grid">
+        <article class="plan-card"><p class="pill">FREE Trial</p><h3>30分の無料投影体験</h3><p>自分のWindows PC、字幕専用ディスプレイ／プロジェクター、SRTとの相性を購入前に確認できます。</p><p>投影画面を開いて字幕を再生している時間の<strong>累積30分</strong>です。設定中や一時停止中は消費せず、再起動しても残り時間を引き継ぎます。</p><p class="english" lang="en">30 cumulative minutes of active subtitle projection. Loading, setup, and paused playback do not consume the trial.</p><a class="button" href="https://github.com/maguwaidog/DiscCue-Releases/releases/download/v1.0.0/DiscCue-1.0.0.msi" aria-describedby="trial-plan-note">Download DiscCue</a><p id="trial-plan-note" class="cta-note">v1.0.0 MSI · 同じアプリでFREE TrialからStandardへ認証できます。</p></article>
+        <article class="plan-card standard-card"><p class="pill">DiscCue Standard</p><h3 class="price">¥2,480 <span>税込・日本向け / 買い切り</span></h3><p class="english" lang="en">¥2,480 one-time purchase for customers in Japan, including applicable taxes.</p><ul class="plan-facts"><li>サブスクリプションなし / No subscription</li><li>1ライセンスで最大2台まで認証 / Up to 2 activated devices</li><li>投影再生時間の制限なし</li><li>Current Line Sync</li><li>初回オンライン認証後は通常オフライン利用</li></ul><a class="button" href="https://buy.polar.sh/polar_cl_TDCBYYSAvUdgNv5AkaE9ONiixadWXCWjz7tw21eu6fU" aria-describedby="standard-plan-note">Buy Standard — ¥2,480（税込）</a><p id="standard-plan-note" class="cta-note">日本向け税込価格。支払確定前にPolar Checkoutの最終総額をご確認ください。<br><a href="tokushoho.html">販売条件・開示請求・返金の案内</a></p></article>
+      </div>
+      <div class="download-info" id="download-details"><h3>DiscCue v1.0.0 / Windows installer</h3><p><strong>DiscCue-1.0.0.msi</strong> · 56,369,688 bytes · Windows 11 x64</p><p><a href="https://github.com/maguwaidog/DiscCue-Releases/releases/tag/v1.0.0">v1.0.0 Release Notes</a> · <a href="https://github.com/maguwaidog/DiscCue-Releases">Official downloads on GitHub</a></p><p>現在のWindowsインストーラーはデジタル署名されていないため、インストール時にWindowsがセキュリティ警告を表示する場合があります。</p><p lang="en">The current Windows installer is not digitally signed, so Windows may display a security warning during installation.</p><p class="checksum-label">SHA-256</p><code class="checksum">9EBF3A96757C867B317E28441BB1110E32536309375891FD13CAE19488DD6A38</code></div>
+      <div class="comparison"><table><caption>FREE TrialとStandardの違い / Plan comparison</caption><thead><tr><th scope="col">機能・条件</th><th scope="col">FREE Trial</th><th scope="col">Standard</th></tr></thead><tbody>
+        <tr><th scope="row">SRT読み込み・別画面表示</th><td>利用可</td><td>利用可</td></tr>
+        <tr><th scope="row">スタイル・位置・手動タイミング調整</th><td>利用可</td><td>利用可</td></tr>
+        <tr><th scope="row">投影再生時間</th><td>累積30分</td><td>制限なし</td></tr>
+        <tr><th scope="row" lang="en">Current Line Sync</th><td>対象外</td><td>利用可</td></tr>
+        <tr><th scope="row">価格</th><td>無料</td><td>¥2,480（税込・日本向け）・買い切り</td></tr>
+        <tr><th scope="row">Standard認証台数</th><td>対象外</td><td>最大2台</td></tr>
+      </tbody></table></div>
+      <p class="section-note">ダウンロードは無料です。Standardの購入はPolarで行います。購入完了後にキーが自動発行され、注文確認メールの案内からCustomer Portalで確認できます。同じアプリ内でキーを認証し、Standardを有効化します。初回認証・認証解除にはインターネットが必要です。<a href="tokushoho.html#delivery">提供方法・時期</a>と<a href="tokushoho.html#refund">返金の申請期限・条件</a>をご確認ください。利用前に<a href="terms.html">利用条件・返金の案内</a>と<a href="privacy.html">Privacy Policy</a>をご確認ください。</p>
+    </div></section>
 
-    <section class="policy-strip"><div class="wrap policy-grid"><div><h2>販売開始に向けて</h2><p>製品のPrivacy Policy、利用規約、返金条件は販売開始前に整備・公開します。<br><span lang="en">Product privacy, terms, and refund conditions will be published before launch.</span></p></div><div class="policy-links"><a href="privacy.html">Privacy Policy <span aria-hidden="true">↗</span></a><a href="terms.html">Terms &amp; Refund <span aria-hidden="true">↗</span></a></div></div></section>
+    <section class="section requirements-section" id="requirements"><div class="wrap product-grid">
+      <div><p class="eyebrow">06 / SYSTEM REQUIREMENTS</p><h2>用意するもの</h2></div>
+      <div class="prose"><ul class="requirements-list"><li><strong>Windows PC</strong><br>Windows 11 x64（動作確認済み）。Java実行環境を同梱したMSIなので、別途Java／JDKをインストールする必要はありません。</li><li><strong>字幕専用ディスプレイ／プロジェクター</strong><br>Windows PCに接続して、別画面として認識できる表示機器。映画用TV／プロジェクターと同じ視野へ配置します。</li><li><strong>自分のSRT字幕と映像再生環境</strong><br>適法に用意した映像・利用する権利のあるSRTファイル、いつものBlu-ray／UHDプレーヤーなど。</li><li><strong>Standard認証時のインターネット</strong><br>初回認証と、端末を移す際の認証解除に必要です。認証後の通常利用で定期的なオンライン再認証は要求しません。</li></ul><p lang="en">Windows 11 x64 (tested). A separate display or projector, your own authorized SRT, and your existing movie playback setup are required. Internet access is required for initial Standard activation and deactivation; Standard works offline after activation. A Java runtime is included; no separate JDK installation is required.</p></div>
+    </div></section>
+
+    <section class="section faq-section" id="faq"><div class="wrap document-wrap">
+      <p class="eyebrow">07 / FAQ</p><h2>よくある質問</h2>
+      <div class="faq-list">
+        <details><summary>DiscCueとは？</summary><p>自分のSRTを別ディスプレイ／プロジェクターへ表示し、映画に合わせて手動で同期するWindowsアプリです。映画と同じ視野へ字幕を配置するホームシアター用の字幕表示・投影ツールです。</p></details>
+        <details><summary>映画や字幕ファイルは付属しますか？</summary><p>付属しません。映画・映像・字幕の提供、ホスト、ストリーミング、配布は行いません。合法的に入手した映像と、利用する権利のある字幕を自身で用意してください。リッピングを行うソフトでもありません。</p></details>
+        <details><summary>自分のSRTを使えますか？</summary><p>はい。ローカルのSRTファイルを読み込みます。字幕のダウンロード、クラウド検索、翻訳サービスは含まれません。</p></details>
+        <details><summary>Blu-ray／UHDプレーヤーを買い替える必要がありますか？</summary><p>いいえ。映画は既存のプレーヤーで再生します。Windows PCに字幕専用の別ディスプレイ／プロジェクターをつなぎ、映画と同じ視野へ配置してください。</p></details>
+        <details><summary>映画をPCで再生する必要がありますか？</summary><p>ありません。DiscCueが扱うのは字幕側だけです。映画の映像信号は加工せず、映像へのデジタル合成も行いません。</p></details>
+        <details><summary>FREE Trialはどのように30分を数えますか？</summary><p>投影画面を開いて字幕再生が進んでいる時間を累積で数えます。SRT読み込み・表示設定・一時停止・停止中は消費しません。アプリを再起動しても残り時間を引き継ぎ、30分を使い切ると投影再生が一時停止します。Current Line SyncはStandardの機能です。</p></details>
+        <details><summary>Standardはいくらですか？</summary><p>日本向け¥2,480（税込）の買い切りです。投影再生時間の制限を解除し、Current Line Syncを利用できます。同じDiscCueアプリにライセンスを認証します。購入はBuy StandardからPolarへ進めます。購入完了後に自動発行されたキーを、注文確認メールの案内からCustomer Portalで確認できます。<a href="tokushoho.html">支払い・提供・返金の詳細</a>もご確認ください。</p></details>
+        <details><summary>サブスクリプションですか？</summary><p>いいえ。Standardは一度購入する方式で、定期課金はありません。</p></details>
+        <details><summary>何台まで使えますか？</summary><p>1ライセンスで最大2台まで認証できます。別のPCへ移すときは、現在のPCでインターネットに接続して認証解除し、利用枠を戻してから新しいPCで認証してください。</p></details>
+        <details><summary>オフラインで使えますか？</summary><p>はい。Standardは初回のオンライン認証後、通常の字幕利用をオフラインで行えます。定期的なオンライン再認証は要求しません。認証解除にはインターネットが必要です。</p></details>
+        <details><summary>字幕のタイミングがずれた場合は？</summary><p>再生・一時停止、オフセット、Seek／Jumpで手動調整します。StandardのCurrent Line Syncは、表示中の字幕行を字幕再生時計に合わせてオフセットを補正します。映画や音声を検出して自動同期する機能ではなく、元のSRTも書き換えません。</p></details>
+        <details><summary>対応OSは？</summary><p>Windows 11 x64で動作確認済みです。Java実行環境を同梱するため、別途JDKのインストールは不要です。購入前にはFREE Trialで自分の表示機器を含めて確認してください。</p></details>
+        <details><summary>サポートへの連絡方法は？</summary><p><a href="mailto:mmd.apps303@gmail.com">mmd.apps303@gmail.com</a>へご連絡ください。Windowsのバージョン、アプリのバージョン、表示機器、発生した問題を添えると確認しやすくなります。ライセンスキーや映画・字幕ファイルは送らないでください。</p></details>
+      </div>
+    </div></section>
+
+    <section class="section contact-section" id="support"><div class="wrap contact-grid"><div><p class="eyebrow">08 / SUPPORT</p><h2>環境や使い方のご相談</h2></div><div class="prose"><p>表示機器との組み合わせ、試用、ライセンスについてのお問い合わせはこちらへ。</p><a class="support-email" href="mailto:mmd.apps303@gmail.com">mmd.apps303@gmail.com</a><p lang="en">Questions about your setup, trial, or license? Contact us by email. Please do not send license keys, movies, or subtitle files.</p></div></div></section>
+    <section class="policy-strip"><div class="wrap policy-grid"><div><h2>利用条件とプライバシー</h2><p>字幕のローカル利用、購入条件、事業者情報の開示請求と返金の案内。</p></div><div class="policy-links"><a href="privacy.html">Privacy Policy <span aria-hidden="true">↗</span></a><a href="terms.html">Terms &amp; Refund <span aria-hidden="true">↗</span></a><a href="tokushoho.html">特定商取引法に基づく表記 <span aria-hidden="true">↗</span></a></div></div></section>
   </main>
-  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="./">DiscCue</a><p lang="en">External Subtitles for Physical Media</p><span>© 2026 DiscCue</span></div></footer>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand" href="./">DiscCue</a><p lang="en">External Subtitles for Physical Media</p><nav class="footer-links" aria-label="ポリシーとお問い合わせ"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="tokushoho.html">特定商取引法に基づく表記</a><a href="./#support">Support</a></nav><span>© 2026 DiscCue</span></div></footer>
 </body>
 </html>
