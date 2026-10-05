@@ -28,7 +28,7 @@ Plain HTML and CSS, with no build step, client-side JavaScript, trackers, extern
 - `tokushoho.html`: seller/provider roles, disclosure requests, Japan price, license delivery, and refund guidance.
 - `404.html`: error page.
 - `docs/commerce-operations.md`: disclosure and transaction-support procedures; no personal contact details or customer records.
-- `assets/`: local stylesheet and favicon.
+- `assets/`: local stylesheet, favicon and lossless WebP product screenshots.
 - `sitemap.xml` and `robots.txt`: crawl hints.
 
 The CSS scene is labeled as a concept illustration, not a product screenshot.
@@ -39,13 +39,26 @@ Run `python -m http.server 8000 --bind 127.0.0.1` from this directory. For the G
 
 Review at 320, 390, 768, and 1440 px, including keyboard focus, CTA links, FAQ, local assets, and policy pages. The canonical URL is https://maguwaidog.github.io/disccue/. A project-level robots.txt does not control the host-root robots policy.
 
-Purchase disclosures follow the current official consumer and provider guidance. The owner must maintain the actual request-and-response operation described in `docs/commerce-operations.md`; wording alone does not complete disclosure. Product screenshots are recommended before launch and can be added later without replacing the labeled concept illustration. Changes on this branch are for review only; merging or deploying requires separate authorization.
+Purchase disclosures follow the current official consumer and provider guidance. The owner must maintain the actual request-and-response operation described in `docs/commerce-operations.md`; wording alone does not complete disclosure. The real-product section uses owner-provided captures and keeps the separately labeled concept illustration. Changes on this branch are for review only; merging or deploying requires separate authorization.
 
 
 ## English website
 
 The English landing page is `en/index.html`, with full English Terms, Privacy and purchase information. Japanese and English landing/policy pages use self-canonical URLs and reciprocal `ja`/`en`/`x-default` alternates. The English purchase information and Japan statutory disclosure have different purposes and are not declared interchangeable hreflang translations.
 
-Language choice is explicit in headers and footers, with no automatic locale redirect or client-side storage. Both language versions use the same official v1.0.0 MSI and persistent production checkout link. International visitors review their final amount, currency and taxes in checkout; the Japan price is not advertised as a worldwide quote. English website content does not claim the application has an English UI mode.
+Language choice is explicit in headers and footers, with no automatic locale redirect or client-side storage. Both language versions use the same official v1.0.0 MSI and persistent production checkout link. International visitors review their final amount, currency and taxes in checkout; the Japan price is not advertised as a worldwide quote. The screenshots show Japanese UI. The v1.0.0 application implementation was checked for English and Japanese interface selection before adding the English-interface statement.
 
 Product screenshots must come from the owner's original captures, receive a privacy/content audit and preserve the real UI. The concept illustration remains separately labeled. Do not use fabricated product imagery or upload private audit materials.
+
+
+## Real product screenshots
+
+Both landing pages show the control window, subtitle-only output and Current Line Sync in that order. Captions and alternative text are localized. Images retain their complete original frame, dimensions and decoded pixels; conversion is lossless WebP, with no UI or subtitle edits. No embedded source metadata is carried over.
+
+| File in `assets/screenshots/` | Dimensions | Bytes |
+| --- | --- | ---: |
+| `disccue-operation-window.webp` | 1280 × 1392 | 16,482 |
+| `disccue-subtitle-output.webp` | 2048 × 1152 | 10,842 |
+| `disccue-current-line-sync.webp` | 1277 × 414 | 5,040 |
+
+All three images total 32,364 bytes. They are lazy-loaded with explicit width and height to reserve space. Native image links open the same full-size assets without JavaScript. The captures contain owner-provided demo subtitles, not movie footage, credentials or personal paths.
