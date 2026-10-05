@@ -27,3 +27,15 @@ button{font:inherit}button:focus-visible,summary:focus-visible{outline:3px solid
 a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #30654f;outline-offset:5px}
 .site-header a:focus-visible,.hero a:focus-visible,.pricing-section a:focus-visible,.site-footer a:focus-visible{outline-color:#c7e8db}
 @media(max-width:370px){.download-info{padding:18px}}
+
+/* Purchase disclosures share the existing document and footer layout. */
+.footer-links{display:flex;flex-wrap:wrap;gap:8px 18px;margin-left:auto}
+.footer-links a{display:inline-flex;align-items:center;min-height:44px;font-size:12px;color:#ced8d7;line-height:1.7}
+.footer-inner>span{margin-left:0}.footer-inner{flex-wrap:wrap}
+.commerce-nav{display:flex;flex-wrap:wrap;gap:8px 18px;margin:24px 0;padding:16px 0;border-block:1px solid var(--line)}
+.commerce-nav a{display:inline-flex;align-items:center;min-height:44px;font-size:13px;color:var(--green);line-height:1.8}
+.document-main section{scroll-margin-top:24px}.document-main h1{overflow-wrap:anywhere}
+.document-main .notice-box h3{margin:0 0 12px}.document-main .notice-box p:last-child{margin-bottom:0}
+.hero .cta-note a,.plan-card .cta-note a{display:inline-block;padding-block:8px;min-height:44px}
+.policy-links{min-width:0}.policy-links a{line-height:1.8}
+@media(max-width:760px){.footer-links{width:100%;margin-left:0;justify-content:flex-start}.footer-inner p{order:0}.footer-inner>span{margin-left:0}.commerce-nav{gap:8px 14px}}

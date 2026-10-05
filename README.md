@@ -8,7 +8,7 @@ This repository contains the static product website. It contains no application 
 
 - Windows 11 x64 (tested); Java runtime included, no separate JDK required.
 - FREE Trial: 30 cumulative minutes of active subtitle projection in the same DiscCue app.
-- Standard: ¥2,480 one-time purchase, up to 2 activated devices, no subscription.
+- Standard: ¥2,480 one-time purchase for customers in Japan, including applicable taxes, up to 2 activated devices, no subscription.
 - Initial Standard activation and deactivation require internet access; normal use is offline after activation.
 - [DiscCue v1.0.0 Release](https://github.com/maguwaidog/DiscCue-Releases/releases/tag/v1.0.0)
 - [Download DiscCue-1.0.0.msi](https://github.com/maguwaidog/DiscCue-Releases/releases/download/v1.0.0/DiscCue-1.0.0.msi)
@@ -25,7 +25,9 @@ Plain HTML and CSS, with no build step, client-side JavaScript, trackers, extern
 - `index.html`: product, download, checkout, demo, requirements, FAQ, and support.
 - `privacy.html`: local subtitle handling, online licensing, Polar checkout, and support.
 - `terms.html`: product licensing, purchase and refund information.
+- `tokushoho.html`: seller/provider roles, disclosure requests, Japan price, license delivery, and refund guidance.
 - `404.html`: error page.
+- `docs/commerce-operations.md`: disclosure and transaction-support procedures; no personal contact details or customer records.
 - `assets/`: local stylesheet and favicon.
 - `sitemap.xml` and `robots.txt`: crawl hints.
 
@@ -37,4 +39,4 @@ Run `python -m http.server 8000 --bind 127.0.0.1` from this directory. For the G
 
 Review at 320, 390, 768, and 1440 px, including keyboard focus, CTA links, FAQ, local assets, and policy pages. The canonical URL is https://maguwaidog.github.io/disccue/. A project-level robots.txt does not control the host-root robots policy.
 
-PR #1 remains a draft until the Japan-facing seller disclosures and the specific applicable refund conditions are finalized. Changes on this branch are for review only; merging or deploying requires separate authorization.
+Purchase disclosures follow the current official consumer and provider guidance. The owner must maintain the actual request-and-response operation described in `docs/commerce-operations.md`; wording alone does not complete disclosure. Product screenshots are recommended before launch and can be added later without replacing the labeled concept illustration. Changes on this branch are for review only; merging or deploying requires separate authorization.
