@@ -13,7 +13,7 @@ This repository contains the static product website. It contains no application 
 - [DiscCue v1.0.0 Release](https://github.com/maguwaidog/DiscCue-Releases/releases/tag/v1.0.0)
 - [Download DiscCue-1.0.0.msi](https://github.com/maguwaidog/DiscCue-Releases/releases/download/v1.0.0/DiscCue-1.0.0.msi)
 - [Buy Standard through Polar](https://buy.polar.sh/polar_cl_TDCBYYSAvUdgNv5AkaE9ONiixadWXCWjz7tw21eu6fU)
-- [Demo on YouTube](https://www.youtube.com/watch?v=vQmIugiDq54)
+- [Demo on YouTube](https://youtu.be/dOdLDPHiemw)
 - Support: mmd.apps303@gmail.com
 
 The current installer is not digitally signed. DiscCue does not include movies, TV programs, Blu-ray/UHD content, or third-party subtitle files.
