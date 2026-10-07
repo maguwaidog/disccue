@@ -1,6 +1,10 @@
 # DiscCue website
 
-DiscCue displays user-provided SRT subtitles on a separate Windows display or projector. Keep your player. Keep your disc. Add your subtitles.
+DiscCue sends your own SRT subtitles from a Windows PC to a second projector, while your usual Blu-ray or UHD player plays the movie through the movie projector. Both projectors use the same physical projection screen. Two projectors. One screen.
+
+Keep your player. Keep your disc. Add your subtitles. Movie and subtitle playback are independent: control subtitle playback and timing manually, including after movie pause or seek. DiscCue does not play the movie or intercept, modify or overlay subtitles into its HDMI signal.
+
+The primary setup requires Windows 11 x64 (tested), Blu-ray / UHD playback equipment, a movie projector, a subtitle projector connected as a Windows PC display output, a shared physical projection screen and your own SRT file. Projectors and the screen are not included. A separate subtitle display connected to the PC is a secondary setup.
 
 This repository contains the static product website. It contains no application source or installer. Download official installers from [DiscCue Releases](https://github.com/maguwaidog/DiscCue-Releases).
 
