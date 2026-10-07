@@ -28,7 +28,7 @@ Plain HTML and CSS, with no build step, client-side JavaScript, trackers, extern
 - `tokushoho.html`: seller/provider roles, disclosure requests, Japan price, license delivery, and refund guidance.
 - `404.html`: error page.
 - `docs/commerce-operations.md`: disclosure and transaction-support procedures; no personal contact details or customer records.
-- `assets/`: local stylesheet, favicon and lossless WebP product screenshots.
+- `assets/`: local stylesheet, official brand icons and lossless WebP product screenshots.
 - `sitemap.xml` and `robots.txt`: crawl hints.
 
 The CSS scene is labeled as a concept illustration, not a product screenshot.
@@ -62,3 +62,10 @@ Both landing pages show the control window, subtitle-only output and Current Lin
 | `disccue-current-line-sync.webp` | 1277 × 414 | 5,040 |
 
 All three images total 32,364 bytes. They are lazy-loaded with explicit width and height to reserve space. Native image links open the same full-size assets without JavaScript. The captures contain owner-provided demo subtitles, not movie footage, credentials or personal paths.
+
+
+## Website brand assets
+
+`assets/brand/` contains the official raster icons shared by headers, footers and PNG favicons, the official multi-size ICO, a 180px Apple Touch Icon, and localized 1200 × 630 PNG sharing cards. The icons retain their approved pixels; the touch icon only resizes and composites the official artwork onto the existing page background.
+
+OPTION B keeps the existing light backgrounds, dark sections, layout and typography. Shared CSS defines separate colors for links and focus on light and dark surfaces, and white text for every filled CTA state. Review normal, hover, active, visited and keyboard focus at 320, 390, 768 and 1440px, with 200% zoom and forced colors. Confirm icon paths on both guides and the project-relative 404 page; inspect both sharing cards at their native size.
