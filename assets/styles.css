@@ -95,3 +95,21 @@ a:not(.button):not(.brand):focus-visible{text-decoration:underline;text-decorati
 .button-outline:active{background:var(--context-outline-active-bg);color:var(--context-link-active);border-color:var(--context-link-active)}
 a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--context-focus);outline-offset:3px;box-shadow:0 0 0 3px var(--context-focus-gap)}
 @media(forced-colors:active){a:focus-visible,button:focus-visible,summary:focus-visible{outline-color:Highlight;box-shadow:none}}
+
+/* Same physical screen: two independent paths converge on one scene. */
+.hero-tagline{font-size:13px;color:var(--accent);margin:0 0 16px}
+.hero .setup-note{margin:0 0 12px}
+.same-screen-concept .projection-path{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:8px;text-align:center;color:var(--color-text-dark);font-size:12px;line-height:1.6}
+.same-screen-concept .projection-path li{padding:8px 12px;border:1px solid #688079;border-radius:4px;background:var(--color-surface-dark)}
+.projection-path li+li::before{content:'↓';display:block;color:var(--accent);margin-top:-4px;margin-bottom:4px}
+.same-screen-concept .subtitle-path{flex-direction:column-reverse}
+.subtitle-path li+li::before{content:none}
+.subtitle-path li:first-child::before{content:'↑';display:block;color:var(--accent);margin-top:-4px;margin-bottom:4px}
+.projection-arrow{text-align:center;color:var(--accent);font-size:22px;line-height:1.3;padding:6px}
+.same-screen-concept .shared-screen{height:218px}
+.same-screen-concept .moon{top:72px}
+.shared-screen-label{position:absolute;top:12px;left:10px;right:10px;text-align:center;color:var(--color-text-dark);font-size:13px;font-weight:650;line-height:1.5}
+.shared-screen-label span{font-size:10px;font-weight:400;color:var(--color-text-muted-dark)}
+.projected-subtitles{position:absolute;bottom:14px;left:8px;right:8px;margin:0;text-align:center;color:var(--color-text-dark);font-size:13px;line-height:1.6}
+.same-screen-concept .concept-top,.same-screen-concept figcaption{color:var(--color-text-muted-dark)}
+@media(max-width:370px){.same-screen-concept .concept-top{font-size:8px;letter-spacing:1px}.projected-subtitles{font-size:12px}}
