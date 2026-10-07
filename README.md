@@ -10,8 +10,8 @@ This repository contains the static product website. It contains no application 
 - FREE Trial: 30 cumulative minutes of active subtitle projection in the same DiscCue app.
 - Standard: ¥2,480 one-time purchase for customers in Japan, including applicable taxes, up to 2 activated devices, no subscription.
 - Initial Standard activation and deactivation require internet access; normal use is offline after activation.
-- [DiscCue v1.0.0 Release](https://github.com/maguwaidog/DiscCue-Releases/releases/tag/v1.0.0)
-- [Download DiscCue-1.0.0.msi](https://github.com/maguwaidog/DiscCue-Releases/releases/download/v1.0.0/DiscCue-1.0.0.msi)
+- [DiscCue v1.0.1 Release](https://github.com/maguwaidog/DiscCue-Releases/releases/tag/v1.0.1)
+- [Download DiscCue-1.0.1.msi](https://github.com/maguwaidog/DiscCue-Releases/releases/download/v1.0.1/DiscCue-1.0.1.msi)
 - [Buy Standard through Polar](https://buy.polar.sh/polar_cl_TDCBYYSAvUdgNv5AkaE9ONiixadWXCWjz7tw21eu6fU)
 - [Demo on YouTube](https://youtu.be/dOdLDPHiemw)
 - Support: mmd.apps303@gmail.com
@@ -46,7 +46,7 @@ Purchase disclosures follow the current official consumer and provider guidance.
 
 The English landing page is `en/index.html`, with full English Terms, Privacy and purchase information. Japanese and English landing/policy pages use self-canonical URLs and reciprocal `ja`/`en`/`x-default` alternates. The English purchase information and Japan statutory disclosure have different purposes and are not declared interchangeable hreflang translations.
 
-Language choice is explicit in headers and footers, with no automatic locale redirect or client-side storage. Both language versions use the same official v1.0.0 MSI and persistent production checkout link. International visitors review their final amount, currency and taxes in checkout; the Japan price is not advertised as a worldwide quote. The screenshots show Japanese UI. The v1.0.0 application implementation was checked for English and Japanese interface selection before adding the English-interface statement.
+Language choice is explicit in headers and footers, with no automatic locale redirect or client-side storage. Both language versions use the same official v1.0.1 MSI and persistent production checkout link. International visitors review their final amount, currency and taxes in checkout; the Japan price is not advertised as a worldwide quote. The screenshots show Japanese UI. The v1.0.0 application implementation was checked for English and Japanese interface selection before adding the English-interface statement.
 
 Product screenshots must come from the owner's original captures, receive a privacy/content audit and preserve the real UI. The concept illustration remains separately labeled. Do not use fabricated product imagery or upload private audit materials.
 
