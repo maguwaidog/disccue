@@ -1,0 +1,30 @@
+name: Analytics static contract
+
+on:
+  pull_request:
+    paths:
+      - 'index.html'
+      - 'en/index.html'
+      - 'guides/blu-ray-external-subtitles/index.html'
+      - 'en/guides/blu-ray-external-subtitles/index.html'
+      - 'privacy.html'
+      - 'en/privacy.html'
+      - 'README.md'
+      - 'scripts/check_analytics_static.py'
+      - '.github/workflows/analytics-static.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate analytics static contract
+        run: python scripts/check_analytics_static.py
