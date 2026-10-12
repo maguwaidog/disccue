@@ -24,7 +24,7 @@ The current installer is not digitally signed. DiscCue does not include movies, 
 
 ## Website structure
 
-Plain HTML and CSS, with no build step, client-side JavaScript, trackers, external fonts, or embedded video.
+Plain HTML and CSS with no build step, external fonts, or embedded video. The Japanese and English home and guide pages include a deferred Umami Cloud analytics script for page views and pre-labelled link clicks; see the Privacy pages and docs/analytics-activation-guide.md. No advertising tracker or site account feature is added.
 
 - `index.html`: product, download, checkout, demo, requirements, FAQ, and support.
 - `privacy.html`: local subtitle handling, online licensing, Polar checkout, and support.
